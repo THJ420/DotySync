@@ -1,0 +1,82 @@
+/* Modern Tabs */
+.nav-tab-wrapper {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-right: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #555;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.2s ease;
+}
+
+.nav-tab:hover {
+    background: #fff;
+    color: #0073aa;
+}
+
+.nav-tab-active,
+.nav-tab-active:hover {
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: -2px;
+    box-shadow: 0 -2px 0 #0073aa inset;
+}
+
+/* Card Styling */
+.dotypos-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 30px; /* Increased padding */
+    margin-top: 20px;
+    max-width: 900px;
+    border-radius: 8px; /* Softer corners */
+}
+
+.dotypos-card h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.4em;
+    color: #23282d;
+}
+
+/* Status Badge */
+.dotypos-status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px; /* Pill shape */
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form Table Spacing */
+.form-table th {
+    padding: 25px 10px 25px 0;
+    font-weight: 600;
+}
+
+.form-table td {
+    padding: 25px 10px;
+}
+
+.form-table tr {
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.form-table tr:last-child {
+    border-bottom: none;
+}

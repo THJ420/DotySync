@@ -1,0 +1,15 @@
+
+# Development
+node_modules/
+vendor/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Build artifacts
+*.zip
+*.tar.gz
+build/
+dist/

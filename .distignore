@@ -1,0 +1,27 @@
+# Ignore everything initially
+*
+
+# Allow plugin files
+!dotypos-bridge.php
+!readme.txt
+!admin/**
+!includes/**
+!assets/**
+!languages/**
+
+# Explicitly ignore development/system files affecting these dirs
+.git/
+.github/
+.gitignore
+.distignore
+composer.json
+composer.lock
+package.json
+package-lock.json
+node_modules/
+tests/
+bin/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
